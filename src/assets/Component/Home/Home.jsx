@@ -26,7 +26,7 @@ export default function Home() {
     <div>
       <div id='/'>
         <div className='relative'>
-          <img data-aos="slide-down" src={background} className='w-full h-screen object-cover' alt="Background" />
+          <img src={background} className='w-full h-screen object-cover' alt="Background" />
         </div>
         <div data-aos="slide-up" className='absolute inset-0 main flex justify-center md:justify-stretch items-center text-red-50 mx-5 md:mx-24'>
           <div className='bg-white/15 backdrop-blur-2xl p-4 lg:p-8 hover:text-gray-600  rounded-3xl shadow-md hover:scale-105 duration-1000'>
