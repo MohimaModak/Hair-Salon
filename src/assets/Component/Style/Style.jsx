@@ -9,8 +9,8 @@ export default function Style() {
     <div id='/Style' className="bg-[#e4d4cc] py-16 px-6 text-center">
       {/* Header */}
       <div className="max-w-4xl mx-auto mb-12">
-        <h2 data-aos="slide-up" className="text-4xl md:text-5xl font-semibold text-gray-600 tracking-wide mb-4">
-          <span  className="text-gray-500 hero-heading">MOOD</span>BOARD
+        <h2 data-aos="slide-down" className="text-4xl md:text-5xl font-semibold text-gray-600 tracking-wide mb-4">
+          <span className="text-gray-500 hero-heading">MOOD</span>BOARD
         </h2>
         <p data-aos="slide-down" className="text-gray-600 text-base max-w-2xl mx-auto">
           The moodboard combines harmony of style and comfort, reflecting the brand’s philosophy
@@ -26,7 +26,7 @@ export default function Style() {
           <img
             src={service1}
             alt="Naturalness"
-            data-aos="slide-up"
+            data-aos="slide-down"
             className="rounded-lg object-cover w-full h-80 rounded-r-full shadow-2xl border mb-4"
           />
           <h4 className="text-lg font-medium text-[#5a3c2e]">NATURALNESS</h4>
@@ -48,7 +48,7 @@ export default function Style() {
           <img
             src={service3}
             alt="Atmosphere"
-            data-aos="slide-up"
+            data-aos="slide-down"
             className="rounded-lg object-cover w-full h-80 rounded-r-full shadow-2xl border mb-4"
           />
           <h4 className="text-lg font-medium text-[#5a3c2e]">ATMOSPHERE</h4>

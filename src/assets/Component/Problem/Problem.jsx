@@ -38,7 +38,7 @@ export default function Problem() {
           Healthy hair starts with understanding the issue. Here are some of the most common hair and scalp concerns our clients face — and how we help solve them.
         </p>
 
-        <div data-aos="slide-up" className="grid md:grid-cols-2 gap-8 text-left">
+        <div data-aos="slide-down" className="grid md:grid-cols-2 gap-8 text-left">
           {problems.map((item, index) => (
             <div
               key={index}
